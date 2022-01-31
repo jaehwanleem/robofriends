@@ -5,22 +5,24 @@ import './index.css';
 
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
-import Card from './Card';
-import Cardlist from './Cardlist';
-import App from './App';
+
+import App from './containers/App';
 
 
 
 ReactDOM.render(
-  <React.StrictMode>
+  
+    
+    <React.StrictMode>
     <App />
 
     
 
-    
+     
     
   </React.StrictMode>,
   document.getElementById('root')
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
